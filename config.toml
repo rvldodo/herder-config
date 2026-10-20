@@ -1,0 +1,150 @@
+# herdr configuration — /Users/dodo/.config/herdr/config.toml
+#
+# Tuned on 2026-08-15 from 8 months of ~/.zsh_history (10,009 commands, 213 active days).
+# Every non-default setting below has a reason comment. Run `herdr config check` after editing,
+# then `herdr server reload-config` (or prefix+shift+r) to apply without restarting.
+
+# Onboarding popup is skipped because notifications are configured explicitly below.
+onboarding = false
+
+[theme]
+# Matches kitty.conf background #1a1b26 (Tokyo Night).
+name = "tokyo-night"
+
+# Your kitty setup is dark-only (background_opacity 0.75 + blur), so no light/dark following.
+auto_switch = false
+
+[terminal]
+# Empty = $SHELL (/bin/zsh).
+default_shell = ""
+
+# Login shells on macOS. Required: your PATH for bun, go, pyenv, solana, postgresql@17
+# and ~/.local/bin is assembled in ~/.zshrc, so non-login panes would lose those tools.
+shell_mode = "auto"
+
+# New panes/tabs inherit the source pane's cwd. Matches how you work: `cd <project>` once,
+# then split for server + logs + git in the same tree.
+new_cwd = "follow"
+
+[update]
+channel = "stable"
+version_check = true
+manifest_check = true
+
+[keys]
+# Deliberately LEFT as ctrl+b. Your tmux prefix is C-Space (tmux.conf:18), so herdr and tmux
+# never fight — important because you ssh into 8+ remote hosts where tmux is the multiplexer.
+# herdr = outer (local), tmux = inner (remote).
+prefix = "ctrl+b"
+
+# Pane focus: prefix-less ctrl+hjkl, the vim-tmux-navigator map you already have muscle
+# memory for (tmux.conf:67). Each action keeps its prefix+ binding too, so the old
+# ctrl+b h/j/k/l still works — the direct chord is an addition, not a replacement.
+#
+# Tradeoff accepted deliberately: herdr is the OUTER layer, so it consumes these chords
+# before the pane's program sees them. Inside a herdr pane, vim-tmux-navigator no longer
+# receives ctrl+hjkl — that includes local nvim splits and tmux on the remote hosts you
+# ssh into. Use the tmux prefix (C-Space) + hjkl for the inner layer there.
+# Also shadowed in the shell: ctrl+l (clear), ctrl+k (kill-line), ctrl+h (backspace),
+# ctrl+j (accept-line). Drop any one of these back to prefix-only if you miss it.
+focus_pane_left  = ["prefix+h", "ctrl+h"]
+focus_pane_down  = ["prefix+j", "ctrl+j"]
+focus_pane_up    = ["prefix+k", "ctrl+k"]
+focus_pane_right = ["prefix+l", "ctrl+l"]
+
+# lazygit popup — `lg` is your 5th most-used command (345 runs). No more pane juggling.
+[[keys.command]]
+key = "prefix+shift+l"
+type = "popup"
+command = "lazygit"
+width = "90%"
+height = "90%"
+
+# yazi popup — mirrors the `y()` function in your .zshrc.
+[[keys.command]]
+key = "prefix+shift+y"
+type = "popup"
+command = "yazi"
+width = "85%"
+height = "85%"
+
+[ui]
+# Your saved session used a 36-column sidebar; keep that as the ceiling and start compact
+# so long project names (superapps-cms-api, waterhub-iot-or) still fit when expanded.
+sidebar_width = 26
+sidebar_min_width = 18
+sidebar_max_width = 36
+sidebar_collapsed_mode = "compact"
+
+# You touch 2+ projects on 63% of active days — grouping by space matches your existing
+# one-tmux-session-per-project habit (ta woori / ta waterhub / ta self-projects).
+# Switch to "priority" if you start running several agents at once and want an attention queue.
+agent_panel_sort = "spaces"
+
+# Single-tab workspaces stay clean; the tab row appears once you actually split work out.
+hide_tab_bar_when_single_tab = true
+
+# You create tabs constantly — don't block on a name prompt.
+prompt_new_tab_name = false
+
+# Workspaces are per-project and long-lived, so naming them is worth the prompt.
+prompt_new_workspace_name = true
+
+# Guard against closing a workspace mid-migration.
+confirm_close = true
+
+# Labels on pane borders so a split running claude vs. `air` vs. `bun dev` is identifiable.
+show_agent_labels_on_pane_borders = true
+
+pane_borders = true
+pane_scrollbars = true
+pane_gaps = true
+
+# tmux.conf:6 has `set -g mouse on` — same behavior here.
+mouse_capture = true
+copy_on_select = true
+
+[ui.sidebar.spaces]
+# branch + git_status per project. Note: these read git only; your SVN projects
+# (svn is your #1 command, 1311 runs) will show a blank branch cell — expected, not a bug.
+rows = [["state_icon", "workspace"], ["branch", "git_status"]]
+
+[ui.sidebar.agents]
+rows = [["state_icon", "workspace", "tab"], ["agent"]]
+
+[ui.sidebar.agents.rows_by_agent]
+# You run Claude Code (102 invocations) — show its terminal title so you can tell
+# two Claude panes apart at a glance.
+claude = [["state_icon", "workspace", "tab"], ["terminal_title_stripped"], ["agent"]]
+
+[ui.toast]
+# macOS desktop notifications. You start long jobs (make migration-up, docker compose,
+# make test-integration, bun dev, air) and then switch away — this is where herdr pays off.
+# If they don't appear, try "terminal" (kitty-delivered) or "herdr" (in-app only).
+delivery = "system"
+delay_seconds = 1
+
+[ui.toast.herdr]
+position = "bottom-right"
+
+[ui.toast.clipboard]
+enabled = true
+position = "bottom-center"
+
+[ui.sound]
+enabled = true
+
+[session]
+# After a server restart, resume Claude Code panes into their real conversation sessions.
+resume_agents_on_restore = true
+
+[remote]
+# You ssh to 8+ hosts (mycredit@172.16.80.40, waterhub-api.com, wis@172.16.10.58, ...).
+# Let herdr add keepalives + connection multiplexing on top of your ~/.ssh/config so
+# `herdr --remote` survives idle NAT timeouts on those boxes.
+manage_ssh_config = true
+
+[advanced]
+# Bumped from the 10MB default: `air`, `docker compose`, and `make run-worker` produce
+# heavy scrollback and you often go looking for an error from several minutes ago.
+scrollback_limit_bytes = 20000000

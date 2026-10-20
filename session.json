@@ -1,0 +1,2054 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w3",
+      "custom_name": "mymobil",
+      "identity_cwd": "/Users/dodo/projects/mymobil/backend",
+      "public_pane_numbers": {
+        "115": 14,
+        "5": 3,
+        "12": 9,
+        "118": 17,
+        "10": 11,
+        "9": 7,
+        "117": 16,
+        "116": 15,
+        "11": 8,
+        "4": 4,
+        "6": 10,
+        "7": 5,
+        "1": 1,
+        "114": 13,
+        "2": 12,
+        "8": 6,
+        "3": 2
+      },
+      "next_public_pane_number": 19,
+      "public_tab_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "next_public_tab_number": 6,
+      "tabs": [
+        {
+          "custom_name": "mymobil-backend",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 1
+                  },
+                  "second": {
+                    "Pane": 2
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 3
+                  },
+                  "second": {
+                    "Pane": 4
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "4": {
+              "cwd": "/Users/dodo/projects/mymobil/backend"
+            },
+            "3": {
+              "cwd": "/Users/dodo/projects/mymobil/backend"
+            },
+            "1": {
+              "cwd": "/Users/dodo/projects/mymobil/backend",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "72435402-94ec-4ae3-99e5-d6dfcf191ce6"
+              }
+            },
+            "2": {
+              "cwd": "/Users/dodo/projects/mymobil/backend"
+            }
+          },
+          "zoomed": false,
+          "focused": 1,
+          "root_pane": 1
+        },
+        {
+          "custom_name": "mymobil-frontend",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 5
+                  },
+                  "second": {
+                    "Pane": 6
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 7
+                  },
+                  "second": {
+                    "Pane": 8
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "6": {
+              "cwd": "/Users/dodo/projects/mymobil/website"
+            },
+            "8": {
+              "cwd": "/Users/dodo/projects/mymobil/website"
+            },
+            "7": {
+              "cwd": "/Users/dodo/projects/mymobil/website"
+            },
+            "5": {
+              "cwd": "/Users/dodo/projects/mymobil/website",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "5236a6c0-3fdd-428e-9dc1-7c34f1dcaec1"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 7,
+          "root_pane": 5
+        },
+        {
+          "custom_name": "mymobil-dashboard",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 9
+                  },
+                  "second": {
+                    "Pane": 10
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 11
+                  },
+                  "second": {
+                    "Pane": 12
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "10": {
+              "cwd": "/Users/dodo/projects/mymobil/dashboard"
+            },
+            "9": {
+              "cwd": "/Users/dodo/projects/mymobil/dashboard",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "f7782d23-54f2-44e4-8614-c170845bdd0d"
+              }
+            },
+            "11": {
+              "cwd": "/Users/dodo/projects/mymobil/dashboard"
+            },
+            "12": {
+              "cwd": "/Users/dodo/projects/mymobil/dashboard"
+            }
+          },
+          "zoomed": false,
+          "focused": 11,
+          "root_pane": 9
+        },
+        {
+          "custom_name": "mymobil-master",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.4940476,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 114
+                  },
+                  "second": {
+                    "Pane": 116
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 115
+                  },
+                  "second": {
+                    "Pane": 117
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "116": {
+              "cwd": "/Users/dodo/projects/mymobil/master"
+            },
+            "114": {
+              "cwd": "/Users/dodo/projects/mymobil/master",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "a5ca4eb7-156b-46fb-9b75-86bea8952971"
+              }
+            },
+            "115": {
+              "cwd": "/Users/dodo/projects/mymobil/master"
+            },
+            "117": {
+              "cwd": "/Users/dodo/projects/mymobil/master"
+            }
+          },
+          "zoomed": false,
+          "focused": 115,
+          "root_pane": 114
+        },
+        {
+          "custom_name": "mymobil-dumps",
+          "layout": {
+            "Pane": 118
+          },
+          "panes": {
+            "118": {
+              "cwd": "/Users/dodo/projects/mymobil/backend"
+            }
+          },
+          "zoomed": false,
+          "focused": 118,
+          "root_pane": 118
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w4",
+      "custom_name": "waterhub",
+      "identity_cwd": "/Users/dodo/projects/waterhub/waterhub-be",
+      "public_pane_numbers": {
+        "19": 7,
+        "22": 13,
+        "25": 16,
+        "18": 6,
+        "24": 15,
+        "20": 10,
+        "23": 17,
+        "122": 24,
+        "29": 21,
+        "27": 19,
+        "121": 23,
+        "16": 3,
+        "26": 18,
+        "14": 12,
+        "28": 20,
+        "13": 1,
+        "17": 4,
+        "15": 2,
+        "120": 22,
+        "21": 11
+      },
+      "next_public_pane_number": 25,
+      "public_tab_numbers": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "next_public_tab_number": 10,
+      "tabs": [
+        {
+          "custom_name": "waterhub-be-new",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 13
+                  },
+                  "second": {
+                    "Pane": 14
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 15
+                  },
+                  "second": {
+                    "Pane": 16
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "14": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-be"
+            },
+            "15": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-be"
+            },
+            "16": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-be"
+            },
+            "13": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-be",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "a8d8b628-f34d-44b4-9532-5f513234e7d1"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 16,
+          "root_pane": 13
+        },
+        {
+          "custom_name": "waterhub-be-old",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 17
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 18
+                  },
+                  "second": {
+                    "Pane": 19
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "19": {
+              "cwd": "/Users/dodo/go/src/github.com/rvldodo/waterhub-be"
+            },
+            "18": {
+              "cwd": "/Users/dodo/go/src/github.com/rvldodo/waterhub-be"
+            },
+            "17": {
+              "cwd": "/Users/dodo/go/src/github.com/rvldodo/waterhub-be",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "3fb62b1b-2713-443f-bcff-c0cd0fcc8446"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 18,
+          "root_pane": 17
+        },
+        {
+          "custom_name": "waterhub-iot",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 20
+              },
+              "second": {
+                "Pane": 21
+              }
+            }
+          },
+          "panes": {
+            "20": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-iot-or",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "922c1843-2155-419d-ac8f-b8cb30913261"
+              }
+            },
+            "21": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-iot-or"
+            }
+          },
+          "zoomed": false,
+          "focused": 20,
+          "root_pane": 20
+        },
+        {
+          "custom_name": "waterhub-ssh",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 22
+              },
+              "second": {
+                "Pane": 23
+              }
+            }
+          },
+          "panes": {
+            "23": {
+              "cwd": "/Users/dodo/projects/waterhub"
+            },
+            "22": {
+              "cwd": "/Users/dodo/projects/waterhub",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "63bb9049-63b3-49cb-8906-663801e58fdf"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 22,
+          "root_pane": 22
+        },
+        {
+          "custom_name": "waterhub-refill",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 24
+                  },
+                  "second": {
+                    "Pane": 120
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 25
+                  },
+                  "second": {
+                    "Pane": 121
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "25": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-standalone"
+            },
+            "24": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-standalone",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "3a6ac2f5-2303-4cb8-94d4-0d16ee6fdf28"
+              }
+            },
+            "121": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-standalone"
+            },
+            "120": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-standalone"
+            }
+          },
+          "zoomed": false,
+          "focused": 25,
+          "root_pane": 24
+        },
+        {
+          "custom_name": "waterhub-mobile-new",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 26
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 27
+                  },
+                  "second": {
+                    "Pane": 28
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "28": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-app-v2"
+            },
+            "27": {
+              "cwd": "/Users/dodo/projects/waterhub/waterhub-app-v2"
+            },
+            "26": {
+              "cwd": "/Users/dodo/projects/waterhub",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "cc490963-057e-4edb-a444-cf02666e0967"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 28,
+          "root_pane": 26
+        },
+        {
+          "custom_name": "waterhub-ngrok",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 29
+              },
+              "second": {
+                "Pane": 122
+              }
+            }
+          },
+          "panes": {
+            "122": {
+              "cwd": "/Users/dodo/go/src/github.com/rvldodo/waterhub-be"
+            },
+            "29": {
+              "cwd": "/Users/dodo/go/src/github.com/rvldodo/waterhub-be"
+            }
+          },
+          "zoomed": false,
+          "focused": 122,
+          "root_pane": 29
+        }
+      ],
+      "active_tab": 6
+    },
+    {
+      "id": "w5",
+      "custom_name": "woori",
+      "identity_cwd": "/Users/dodo/projects/woori/cms-wis",
+      "public_pane_numbers": {
+        "32": 2,
+        "45": 22,
+        "38": 11,
+        "52": 30,
+        "31": 9,
+        "113": 32,
+        "43": 19,
+        "37": 6,
+        "39": 12,
+        "46": 21,
+        "41": 18,
+        "50": 27,
+        "36": 5,
+        "34": 4,
+        "49": 26,
+        "40": 16,
+        "35": 7,
+        "48": 24,
+        "47": 23,
+        "53": 31,
+        "33": 3,
+        "44": 20,
+        "30": 1,
+        "51": 29,
+        "42": 17
+      },
+      "next_public_pane_number": 33,
+      "public_tab_numbers": [
+        1,
+        2,
+        5,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "next_public_tab_number": 15,
+      "tabs": [
+        {
+          "custom_name": "wis-cms",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 30
+                  },
+                  "second": {
+                    "Pane": 31
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 32
+                  },
+                  "second": {
+                    "Pane": 33
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "30": {
+              "cwd": "/Users/dodo/projects/woori/cms-wis"
+            },
+            "31": {
+              "cwd": "/Users/dodo/projects/woori/cms-wis"
+            },
+            "32": {
+              "cwd": "/Users/dodo/projects/woori/woori_web"
+            },
+            "33": {
+              "cwd": "/Users/dodo/projects/woori/cms-wis"
+            }
+          },
+          "zoomed": false,
+          "focused": 30,
+          "root_pane": 30
+        },
+        {
+          "custom_name": "wis-api",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.48809522,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 34
+                  },
+                  "second": {
+                    "Pane": 35
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 36
+                  },
+                  "second": {
+                    "Pane": 37
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "37": {
+              "cwd": "/Users/dodo/projects/woori/api-wis"
+            },
+            "35": {
+              "cwd": "/Users/dodo/projects/woori/api-wis"
+            },
+            "36": {
+              "cwd": "/Users/dodo/projects/woori/api-wis"
+            },
+            "34": {
+              "cwd": "/Users/dodo/projects/woori/api-wis",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "e533d58b-1210-4acd-9c88-2a2a46eacad2"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 35,
+          "root_pane": 34
+        },
+        {
+          "custom_name": "bca-api",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 38
+              },
+              "second": {
+                "Pane": 39
+              }
+            }
+          },
+          "panes": {
+            "39": {
+              "cwd": "/Users/dodo/projects/woori/api-bca"
+            },
+            "38": {
+              "cwd": "/Users/dodo/projects/woori/api-bca",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "78ac5fb1-4a0f-4ca7-a11a-b67adabd9707"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 39,
+          "root_pane": 38
+        },
+        {
+          "custom_name": "mykredit-api",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 40
+                  },
+                  "second": {
+                    "Pane": 41
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 42
+                  },
+                  "second": {
+                    "Pane": 43
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "43": {
+              "cwd": "/Users/dodo/projects/woori/api-mykredit"
+            },
+            "41": {
+              "cwd": "/Users/dodo/projects/woori/api-mykredit"
+            },
+            "40": {
+              "cwd": "/Users/dodo/projects/woori/api-mykredit",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "781291a0-bcb9-4e25-a6e9-5470ffa7c822"
+              }
+            },
+            "42": {
+              "cwd": "/Users/dodo/projects/woori/api-mykredit"
+            }
+          },
+          "zoomed": false,
+          "focused": 41,
+          "root_pane": 40
+        },
+        {
+          "custom_name": "mykredit-mobile",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 44
+                  },
+                  "second": {
+                    "Pane": 45
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 46
+                  },
+                  "second": {
+                    "Pane": 47
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "45": {
+              "cwd": "/Users/dodo/projects/woori/mobile-mykredit"
+            },
+            "44": {
+              "cwd": "/Users/dodo/projects/woori/mobile-mykredit",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "93cc460e-7680-434a-8997-a04d404e374e"
+              }
+            },
+            "47": {
+              "cwd": "/Users/dodo/projects/woori/mobile-mykredit"
+            },
+            "46": {
+              "cwd": "/Users/dodo/projects/woori/mobile-mykredit"
+            }
+          },
+          "zoomed": false,
+          "focused": 44,
+          "root_pane": 44
+        },
+        {
+          "custom_name": "mykredit-gateway",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 48
+              },
+              "second": {
+                "Pane": 49
+              }
+            }
+          },
+          "panes": {
+            "48": {
+              "cwd": "/Users/dodo/projects/woori/gateway-mykredit",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "0cf23e49-191d-4c0f-b84d-5c7f18e94b00"
+              }
+            },
+            "49": {
+              "cwd": "/Users/dodo/projects/woori/gateway-mykredit"
+            }
+          },
+          "zoomed": false,
+          "focused": 48,
+          "root_pane": 48
+        },
+        {
+          "custom_name": "wfi-maxiloan",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 50
+              },
+              "second": {
+                "Pane": 51
+              }
+            }
+          },
+          "panes": {
+            "50": {
+              "cwd": "/Users/dodo/projects/woori/wfi-mykredit-maxiloan",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "edaeec1b-c8c5-4ec0-b7c4-cb9299d326d3"
+              }
+            },
+            "51": {
+              "cwd": "/Users/dodo/projects/woori/wfi-mykredit-maxiloan"
+            }
+          },
+          "zoomed": false,
+          "focused": 51,
+          "root_pane": 50
+        },
+        {
+          "custom_name": "wfi-ssl",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 52
+              },
+              "second": {
+                "Pane": 53
+              }
+            }
+          },
+          "panes": {
+            "53": {
+              "cwd": "/Users/dodo/projects/woori/wfi-ssl"
+            },
+            "52": {
+              "cwd": "/Users/dodo/projects/woori/wfi-ssl",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "c71407b0-b972-4f37-863f-07650932467c"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 52,
+          "root_pane": 52
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 113
+          },
+          "panes": {
+            "113": {
+              "cwd": "/Users/dodo"
+            }
+          },
+          "zoomed": false,
+          "focused": 113,
+          "root_pane": 113
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w8",
+      "custom_name": "docs",
+      "identity_cwd": "/Users/dodo/projects/notes",
+      "public_pane_numbers": {
+        "56": 3,
+        "55": 2,
+        "54": 1
+      },
+      "next_public_pane_number": 5,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": "claude",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 54
+              },
+              "second": {
+                "Pane": 55
+              }
+            }
+          },
+          "panes": {
+            "55": {
+              "cwd": "/Users/dodo/projects/notes"
+            },
+            "54": {
+              "cwd": "/Users/dodo/projects/notes",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "c6c25700-054a-4ad3-b63a-888b5a47c141"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 55,
+          "root_pane": 54
+        },
+        {
+          "custom_name": "expo",
+          "layout": {
+            "Pane": 56
+          },
+          "panes": {
+            "56": {
+              "cwd": "/Users/dodo/projects/notes",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "f22997cb-1416-4c81-a75e-cff4bfa8359b"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 56,
+          "root_pane": 56
+        }
+      ],
+      "active_tab": 1
+    },
+    {
+      "id": "w9",
+      "custom_name": "others-projects",
+      "identity_cwd": "/Users/dodo/projects",
+      "public_pane_numbers": {
+        "67": 22,
+        "64": 16,
+        "58": 6,
+        "72": 33,
+        "62": 17,
+        "71": 26,
+        "66": 21,
+        "60": 7,
+        "57": 3,
+        "68": 25,
+        "63": 14,
+        "59": 5,
+        "74": 36,
+        "65": 19,
+        "69": 30,
+        "61": 15,
+        "73": 28,
+        "70": 31
+      },
+      "next_public_pane_number": 37,
+      "public_tab_numbers": [
+        2,
+        5,
+        7,
+        9,
+        10,
+        14
+      ],
+      "next_public_tab_number": 15,
+      "tabs": [
+        {
+          "custom_name": "fion",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 57
+                  },
+                  "second": {
+                    "Pane": 58
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 59
+                  },
+                  "second": {
+                    "Pane": 60
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "58": {
+              "cwd": "/Users/dodo/projects/fion-finance"
+            },
+            "60": {
+              "cwd": "/Users/dodo/projects/fion-finance"
+            },
+            "57": {
+              "cwd": "/Users/dodo/projects",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "7cd3913d-525e-4aa0-9ac7-d33b782f0fc3"
+              }
+            },
+            "59": {
+              "cwd": "/Users/dodo/projects/fion-finance"
+            }
+          },
+          "zoomed": false,
+          "focused": 57,
+          "root_pane": 57
+        },
+        {
+          "custom_name": "archipelago",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 61
+                  },
+                  "second": {
+                    "Pane": 62
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 63
+                  },
+                  "second": {
+                    "Pane": 64
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "64": {
+              "cwd": "/Users/dodo/projects/e-commerce_order_analytics_system"
+            },
+            "63": {
+              "cwd": "/Users/dodo/projects/e-commerce_order_analytics_system"
+            },
+            "61": {
+              "cwd": "/Users/dodo/projects/e-commerce_order_analytics_system",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "a2bd5cc8-e216-4d5c-982a-6a5167f0ca65"
+              }
+            },
+            "62": {
+              "cwd": "/Users/dodo/projects/e-commerce_order_analytics_system"
+            }
+          },
+          "zoomed": false,
+          "focused": 61,
+          "root_pane": 61
+        },
+        {
+          "custom_name": "video-upload",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 65
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 66
+                  },
+                  "second": {
+                    "Pane": 67
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "67": {
+              "cwd": "/Users/dodo/projects/video-upload"
+            },
+            "65": {
+              "cwd": "/Users/dodo/projects/video-upload",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "f9e4d033-7a78-440d-8aa6-b895ed3d5996"
+              }
+            },
+            "66": {
+              "cwd": "/Users/dodo/projects/video-upload"
+            }
+          },
+          "zoomed": false,
+          "focused": 65,
+          "root_pane": 65
+        },
+        {
+          "custom_name": "portfolio-web",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 68
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 69
+                  },
+                  "second": {
+                    "Pane": 70
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "69": {
+              "cwd": "/Users/dodo/projects/portfolio-web"
+            },
+            "68": {
+              "cwd": "/Users/dodo/projects/portfolio-web",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "7d91a0e5-a5f5-4427-a446-463f88d16aa0"
+              }
+            },
+            "70": {
+              "cwd": "/Users/dodo/projects/portfolio-web"
+            }
+          },
+          "zoomed": false,
+          "focused": 68,
+          "root_pane": 68
+        },
+        {
+          "custom_name": "portfolio-ssh",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 71
+                  },
+                  "second": {
+                    "Pane": 72
+                  }
+                }
+              },
+              "second": {
+                "Pane": 73
+              }
+            }
+          },
+          "panes": {
+            "71": {
+              "cwd": "/Users/dodo/projects/ssh-portfolio",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "1b4209a8-214b-4368-a978-86ecef68d94d"
+              }
+            },
+            "73": {
+              "cwd": "/Users/dodo/projects/ssh-portfolio"
+            },
+            "72": {
+              "cwd": "/Users/dodo/projects/ssh-portfolio"
+            }
+          },
+          "zoomed": false,
+          "focused": 72,
+          "root_pane": 71
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 74
+          },
+          "panes": {
+            "74": {
+              "cwd": "/Users/dodo"
+            }
+          },
+          "zoomed": false,
+          "focused": 74,
+          "root_pane": 74
+        }
+      ],
+      "active_tab": 5
+    },
+    {
+      "id": "wA",
+      "custom_name": "rust",
+      "identity_cwd": "/Users/dodo/rust/simple-crud",
+      "public_pane_numbers": {
+        "77": 5,
+        "80": 9,
+        "76": 2,
+        "81": 11,
+        "75": 1,
+        "78": 6,
+        "79": 7
+      },
+      "next_public_pane_number": 12,
+      "public_tab_numbers": [
+        1,
+        2,
+        3
+      ],
+      "next_public_tab_number": 4,
+      "tabs": [
+        {
+          "custom_name": "playground",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 75
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 76
+                  },
+                  "second": {
+                    "Pane": 77
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "76": {
+              "cwd": "/Users/dodo/rust/axum-full-course/module-01-intro"
+            },
+            "77": {
+              "cwd": "/Users/dodo/rust/axum-full-course"
+            },
+            "75": {
+              "cwd": "/Users/dodo/rust/simple-crud",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "bc2266bd-edaa-4166-90e9-bb8a83f9871e"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 76,
+          "root_pane": 75
+        },
+        {
+          "custom_name": "axum",
+          "layout": {
+            "Split": {
+              "direction": "Vertical",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 78
+              },
+              "second": {
+                "Pane": 79
+              }
+            }
+          },
+          "panes": {
+            "78": {
+              "cwd": "/Users/dodo/rust/simple-crud"
+            },
+            "79": {
+              "cwd": "/Users/dodo/rust/simple-crud"
+            }
+          },
+          "zoomed": false,
+          "focused": 78,
+          "root_pane": 78
+        },
+        {
+          "custom_name": "twitter-clone-rust",
+          "layout": {
+            "Split": {
+              "direction": "Vertical",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 80
+              },
+              "second": {
+                "Pane": 81
+              }
+            }
+          },
+          "panes": {
+            "81": {
+              "cwd": "/Users/dodo/.Trash/rust-twitter-fullstack"
+            },
+            "80": {
+              "cwd": "/Users/dodo/.Trash/rust-twitter-fullstack"
+            }
+          },
+          "zoomed": false,
+          "focused": 80,
+          "root_pane": 80
+        }
+      ],
+      "active_tab": 2
+    },
+    {
+      "id": "wB",
+      "custom_name": "hris-management-system",
+      "identity_cwd": "/Users/dodo/projects/hris-management-system/frontend/apps/web",
+      "public_pane_numbers": {
+        "87": 6,
+        "93": 10,
+        "94": 18,
+        "91": 9,
+        "92": 13,
+        "84": 4,
+        "85": 2,
+        "99": 19,
+        "100": 20,
+        "90": 12,
+        "88": 11,
+        "97": 14,
+        "82": 1,
+        "96": 17,
+        "83": 23,
+        "89": 8,
+        "101": 21,
+        "95": 16,
+        "98": 15,
+        "86": 7
+      },
+      "next_public_pane_number": 24,
+      "public_tab_numbers": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "next_public_tab_number": 11,
+      "tabs": [
+        {
+          "custom_name": "hris-web",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 82
+                  },
+                  "second": {
+                    "Pane": 83
+                  }
+                }
+              },
+              "second": {
+                "Pane": 84
+              }
+            }
+          },
+          "panes": {
+            "83": {
+              "cwd": "/Users/dodo/projects/hris-management-system/frontend/apps/web"
+            },
+            "82": {
+              "cwd": "/Users/dodo/projects/hris-management-system/frontend/apps/web"
+            },
+            "84": {
+              "cwd": "/Users/dodo/projects/hris-management-system/frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 82,
+          "root_pane": 82
+        },
+        {
+          "custom_name": "hris-mobile",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 85
+              },
+              "second": {
+                "Pane": 86
+              }
+            }
+          },
+          "panes": {
+            "86": {
+              "cwd": "/Users/dodo/projects/hris-management-system/frontend/apps/mobile"
+            },
+            "85": {
+              "cwd": "/Users/dodo/projects/hris-management-system/frontend/apps/mobile"
+            }
+          },
+          "zoomed": false,
+          "focused": 86,
+          "root_pane": 85
+        },
+        {
+          "custom_name": "hris-go",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 87
+              },
+              "second": {
+                "Pane": 88
+              }
+            }
+          },
+          "panes": {
+            "88": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/api",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "a7b4627b-37ef-4259-bf7f-2b39c8c286c4"
+              }
+            },
+            "87": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/api",
+              "label": "hris-root"
+            }
+          },
+          "zoomed": false,
+          "focused": 87,
+          "root_pane": 87
+        },
+        {
+          "custom_name": "hris-nestjs",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 89
+              },
+              "second": {
+                "Pane": 90
+              }
+            }
+          },
+          "panes": {
+            "89": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/api-web"
+            },
+            "90": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/api-web"
+            }
+          },
+          "zoomed": false,
+          "focused": 90,
+          "root_pane": 89
+        },
+        {
+          "custom_name": "hris-go-kit",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 91
+              },
+              "second": {
+                "Pane": 92
+              }
+            }
+          },
+          "panes": {
+            "91": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/go-kit"
+            },
+            "92": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/go-kit",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "72a4f06a-c7e8-420a-ab85-fdf73335e03d"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 92,
+          "root_pane": 91
+        },
+        {
+          "custom_name": "hris-migration",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 93
+                  },
+                  "second": {
+                    "Pane": 94
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 95
+                  },
+                  "second": {
+                    "Pane": 96
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "94": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/migrations"
+            },
+            "95": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/migrations"
+            },
+            "96": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/migrations"
+            },
+            "93": {
+              "cwd": "/Users/dodo/projects/hris-management-system/services/migrations",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "6f7ec3ae-423b-40cc-8ded-5b9ee2759f5d"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 93,
+          "root_pane": 93
+        },
+        {
+          "custom_name": "hris-website",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 97
+              },
+              "second": {
+                "Pane": 98
+              }
+            }
+          },
+          "panes": {
+            "97": {
+              "cwd": "/Users/dodo/projects/hris-management-system/website",
+              "label": "hris-website"
+            },
+            "98": {
+              "cwd": "/Users/dodo/projects/hris-management-system/website"
+            }
+          },
+          "zoomed": false,
+          "focused": 97,
+          "root_pane": 97
+        },
+        {
+          "custom_name": "hris-docs",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 99
+              },
+              "second": {
+                "Pane": 100
+              }
+            }
+          },
+          "panes": {
+            "99": {
+              "cwd": "/Users/dodo/projects/hris-management-system/docs",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "042fd8b1-dddb-4e37-8505-2ace3652c004"
+              }
+            },
+            "100": {
+              "cwd": "/Users/dodo/projects/hris-management-system/docs"
+            }
+          },
+          "zoomed": false,
+          "focused": 100,
+          "root_pane": 99
+        },
+        {
+          "custom_name": "hris-vps",
+          "layout": {
+            "Pane": 101
+          },
+          "panes": {
+            "101": {
+              "cwd": "/Users/dodo/projects/hris-management-system"
+            }
+          },
+          "zoomed": false,
+          "focused": 101,
+          "root_pane": 101
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "wC",
+      "custom_name": "llm",
+      "identity_cwd": "/Users/dodo/projects/llm",
+      "public_pane_numbers": {
+        "102": 1,
+        "103": 2
+      },
+      "next_public_pane_number": 3,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 102
+              },
+              "second": {
+                "Pane": 103
+              }
+            }
+          },
+          "panes": {
+            "102": {
+              "cwd": "/Users/dodo/projects/llm",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "ddd7d077-408a-43d9-96e6-4c63ed731d69"
+              }
+            },
+            "103": {
+              "cwd": "/Users/dodo/projects/llm/llm_engineering"
+            }
+          },
+          "zoomed": false,
+          "focused": 102,
+          "root_pane": 102
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "wD",
+      "custom_name": "de-learning-module",
+      "identity_cwd": "/Users/dodo/.config/nvim",
+      "public_pane_numbers": {
+        "104": 1,
+        "107": 4,
+        "109": 6,
+        "105": 2,
+        "106": 3,
+        "108": 5
+      },
+      "next_public_pane_number": 7,
+      "public_tab_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "next_public_tab_number": 7,
+      "tabs": [
+        {
+          "custom_name": "claude",
+          "layout": {
+            "Pane": 104
+          },
+          "panes": {
+            "104": {
+              "cwd": "/Users/dodo/.config/nvim",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "988785b2-b964-4116-97ff-d76ab61fa83c"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 104,
+          "root_pane": 104
+        },
+        {
+          "custom_name": "lab",
+          "layout": {
+            "Pane": 105
+          },
+          "panes": {
+            "105": {
+              "cwd": "/Users/dodo/de-learning-module/lab"
+            }
+          },
+          "zoomed": false,
+          "focused": 105,
+          "root_pane": 105
+        },
+        {
+          "custom_name": "lessons",
+          "layout": {
+            "Pane": 106
+          },
+          "panes": {
+            "106": {
+              "cwd": "/Users/dodo/de-learning-module/lessons"
+            }
+          },
+          "zoomed": false,
+          "focused": 106,
+          "root_pane": 106
+        },
+        {
+          "custom_name": "projects",
+          "layout": {
+            "Pane": 107
+          },
+          "panes": {
+            "107": {
+              "cwd": "/Users/dodo/de-learning-module/project"
+            }
+          },
+          "zoomed": false,
+          "focused": 107,
+          "root_pane": 107
+        },
+        {
+          "custom_name": "readme.md",
+          "layout": {
+            "Pane": 108
+          },
+          "panes": {
+            "108": {
+              "cwd": "/Users/dodo/de-learning-module"
+            }
+          },
+          "zoomed": false,
+          "focused": 108,
+          "root_pane": 108
+        },
+        {
+          "custom_name": "docker",
+          "layout": {
+            "Pane": 109
+          },
+          "panes": {
+            "109": {
+              "cwd": "/Users/dodo/de-learning-module/lab"
+            }
+          },
+          "zoomed": false,
+          "focused": 109,
+          "root_pane": 109
+        }
+      ],
+      "active_tab": 2
+    },
+    {
+      "id": "wE",
+      "custom_name": "golang",
+      "identity_cwd": "/Users/dodo/go/src/github.com/rvldodo",
+      "public_pane_numbers": {
+        "110": 1,
+        "112": 3
+      },
+      "next_public_pane_number": 4,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": "claude",
+          "layout": {
+            "Pane": 110
+          },
+          "panes": {
+            "110": {
+              "cwd": "/Users/dodo/go/src/github.com/rvldodo",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "526b770e-3c33-4c1a-8d00-67942b05fb9b"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 110,
+          "root_pane": 110
+        },
+        {
+          "custom_name": "learn",
+          "layout": {
+            "Pane": 112
+          },
+          "panes": {
+            "112": {
+              "cwd": "/Users/dodo/go/src/github.com/rvldodo/go-mastery"
+            }
+          },
+          "zoomed": false,
+          "focused": 112,
+          "root_pane": 112
+        }
+      ],
+      "active_tab": 1
+    }
+  ],
+  "active": 1,
+  "selected": 1,
+  "sidebar_width": 36,
+  "sidebar_section_split": 0.5,
+  "collapsed_space_keys": []
+}

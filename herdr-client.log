@@ -1,0 +1,90 @@
+2026-08-15T08:15:16.207767Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=36299
+2026-08-15T08:15:16.208017Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T08:15:16.417558Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T08:17:28.384170Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=36299
+2026-08-15T08:33:17.287034Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=54112
+2026-08-15T08:33:17.287391Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T08:33:17.491458Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T08:47:27.701149Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=54112
+2026-08-15T08:47:30.727393Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=78679
+2026-08-15T08:47:30.727455Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T08:47:30.765540Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T08:47:38.680432Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=78679
+2026-08-15T08:47:42.077920Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=78843
+2026-08-15T08:47:42.077989Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T08:47:42.292304Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T15:30:02.903073Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=18597
+2026-08-15T15:30:02.903757Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T15:30:03.019104Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T16:16:49.717524Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=18597
+2026-08-15T16:25:20.608580Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=86782
+2026-08-15T16:25:20.609475Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T16:25:20.622698Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T16:36:59.230833Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=86782
+2026-08-15T16:37:02.245866Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=1319
+2026-08-15T16:37:02.245995Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T16:37:02.331656Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-15T16:39:24.312111Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=1319
+2026-08-15T16:40:45.604004Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=9372
+2026-08-15T16:40:45.604470Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-15T16:40:45.628115Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-26T14:10:53.185059Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-27T00:28:08.030395Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=9372
+2026-08-27T01:33:06.567659Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=30554
+2026-08-27T01:33:06.567940Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-08-27T01:33:06.584177Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-27T10:02:18.932255Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-27T10:02:18.934243Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-27T10:02:18.934692Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-27T10:02:18.934715Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-28T13:10:18.933401Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-30T05:11:18.452313Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-30T05:11:18.451984Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-30T05:11:18.453405Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-30T05:11:20.620146Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-30T05:11:20.867128Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-30T05:11:21.060132Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-31T10:07:36.054790Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-31T10:07:36.054788Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-31T10:07:36.934079Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-31T10:07:37.873756Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-08-31T12:40:31.375085Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-09-13T13:41:27.920693Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=47257
+2026-09-13T13:41:27.921007Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-09-13T13:41:28.064794Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-09-22T01:23:20.829581Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=3572
+2026-09-22T01:23:20.829886Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-09-22T01:23:20.842289Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-09-28T03:03:59.797472Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=8065
+2026-09-28T03:03:59.797699Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-09-28T03:03:59.970701Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-10-01T01:33:21.041244Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=3894
+2026-10-01T01:33:21.041480Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-10-01T01:33:21.050990Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-10-01T12:00:07.858003Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-05T10:04:32.004035Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-05T10:04:33.269709Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-05T10:04:38.153461Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-05T10:04:39.023005Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-05T10:04:39.967135Z  WARN herdr::sound: sound playback failed sound=Request err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-05T22:43:55.171947Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=3894
+2026-10-06T00:46:01.867650Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=11366
+2026-10-06T00:46:01.867871Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-10-06T00:46:01.902664Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-10-06T12:09:35.088643Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=11522
+2026-10-06T12:09:35.088892Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-10-06T12:09:35.106685Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-10-08T14:22:59.660458Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=9670
+2026-10-08T14:22:59.660769Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-10-08T14:22:59.784128Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-10-11T17:50:37.183491Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=34724
+2026-10-11T17:50:37.183729Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-10-11T17:50:37.325218Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-10-12T01:10:08.474215Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=2120
+2026-10-12T01:10:08.474426Z  INFO herdr::client: connecting to server path=/Users/dodo/.config/herdr/herdr-client.sock
+2026-10-12T01:10:08.625856Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-10-12T05:34:37.879953Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-12T11:48:05.107575Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-13T13:18:32.945104Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-19T03:35:24.617087Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
+2026-10-19T17:23:04.024485Z  WARN herdr::sound: sound playback failed sound=Done err=player exited with exit status: 1: Error: AudioQueueStart failed (-66681)
